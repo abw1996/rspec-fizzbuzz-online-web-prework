@@ -6,3 +6,4 @@ def fizzbuzz(num)
   if num3 + num5 == 0 
     puts "FizzBuzz"
   end
+end
