@@ -3,4 +3,6 @@
 def fizzbuzz(num)
   num3 = num % 3
   num5 = num % 5
+  if num3 + num5 == 0 
+    puts "FizzBuzz"
   end
