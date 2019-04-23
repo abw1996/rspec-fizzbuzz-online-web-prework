@@ -4,10 +4,10 @@ def fizzbuzz(num)
   num3 = num % 3
   num5 = num % 5
   if num3 + num5 == 0 
-    puts "FizzBuzz"
+    return "FizzBuzz"
   elsif num3 == 0
-  puts "Fizz"
+  return "Fizz"
   elsif num5 == 0 
-  puts "Buzz"
+  return "Buzz"
   end
 end
