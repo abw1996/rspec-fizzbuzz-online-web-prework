@@ -5,5 +5,6 @@ def fizzbuzz(num)
   num5 = num % 5
   if num3 + num5 == 0 
     puts "FizzBuzz"
+  elsif num3 == 0
   end
 end
